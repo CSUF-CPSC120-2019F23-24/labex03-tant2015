@@ -9,9 +9,9 @@ int main()
 
   std::cin >> person_inches;
 
-  person_feet = person_inches /12;                                              // calcuation
+  person_feet = person_inches / 12;                                              // calcuation
 
-  person_convert = person_inches % person_feet;                                 // get the remainder for inches
+  person_convert = person_inches % 12;                                 // get the remainder for inches
 
   std::cout<<"That person is " << person_feet << "'" << person_convert << "\"" << std::endl;
 
